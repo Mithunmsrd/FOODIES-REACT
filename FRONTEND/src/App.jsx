@@ -15,7 +15,13 @@ import AdminRegister from "./pages/AdminRegister";
 import AddHotel from "./pages/AddHotel";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <>
+      
+      </>
+    )
+  )
 
   return (
     <>
